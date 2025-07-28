@@ -1,0 +1,3 @@
+npm i express 
+@modelcontextprotocol/sdk
+npm install -g nodemon
