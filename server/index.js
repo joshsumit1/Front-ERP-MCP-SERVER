@@ -1,7 +1,7 @@
 import express from "express";
 import axios from 'axios';
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-//import { SSEServerTransport } from "@modelcontextprotocol/sdk/server/sse.js";
+//import { SSEServerTransport } from "@modelcontextprotocol/sdk/server/sse.js"; FOR CUSTOM CLIENT USING CLIENT/PUBLIC/INDEX
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 //import dotenv from 'dotenv';
 //dotenv.config();
@@ -35,9 +35,9 @@ const server = new McpServer({
     version: "1.0.0"
 });
 
-// ... set up server resources, tools, and prompts ...
+// tools...
 
-const app = express();
+const app = express(); 
 
 
 // In-memory undo stack

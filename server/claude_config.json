@@ -1,0 +1,9 @@
+
+{
+    "mcpServers": {
+      "Front-Accounting": {
+        "command": "node",
+        "args": ["your path/index.js"]
+      }
+    }
+  }
