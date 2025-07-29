@@ -25,9 +25,4 @@ This is a lightweight MCP Client server built with Node.js and Express that conn
 
 ---
 
-## 📦 Installation
 
-1. **Clone the repository:**
-
-   ```bash
-   cd mcp-client-web

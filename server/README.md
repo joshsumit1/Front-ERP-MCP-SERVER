@@ -24,12 +24,6 @@ A powerful and extensible [Model Context Protocol (MCP)](https://modelcontext.or
 
 ---
 
-## 📦 Installation
-
-```bash
-cd frontaccounting-mcp-server
-npm install
----
 
 ## RUNNING THE SERVER
 
